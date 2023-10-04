@@ -1,0 +1,14 @@
+projects:
+  amplifyapp:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - >-
+        /Users/adjoawadee/Documents/Amplify/amplify-app/amplify/backend/api/RestaurantAPI/schema.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: angular
+        generatedFileName: src/app/API.service.ts
+        docsFilePath: >-
+          /Users/adjoawadee/Documents/Amplify/amplify-app/amplify/backend/api/RestaurantAPI
